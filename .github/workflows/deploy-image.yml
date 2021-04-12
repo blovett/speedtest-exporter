@@ -1,7 +1,8 @@
 name: Create and publish a package
 on:
-  tags:
-    - v*
+  push:
+    tags:
+      - v*
 
 jobs:
   build-and-push-image:
